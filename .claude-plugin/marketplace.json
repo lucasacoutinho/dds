@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "dds",
+  "version": "1.0.0",
+  "description": "Single-plugin marketplace for DDS (Development Driven Spec) — reverse-engineer Arc42-informed specifications from legacy codebases.",
+  "owner": {
+    "name": "Lucas Coutinho",
+    "email": "mail@lucasacoutinho.com"
+  },
+  "plugins": [
+    {
+      "name": "dds",
+      "description": "Development Driven Spec - reverse-engineer an Arc42-informed specification from legacy code through bottom-up excavation with LLM-as-Judge fidelity verification. Inverts the spec-driven-development direction: code -> spec.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Lucas Coutinho",
+        "email": "mail@lucasacoutinho.com"
+      },
+      "source": ".",
+      "category": "development"
+    }
+  ]
+}

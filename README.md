@@ -19,13 +19,14 @@ DDS answers that question. It produces a citation-grounded specification where e
 
 ## Quick Start
 
-Install directly from this GitHub repo via Claude Code's plugin system:
+This repo is a single-plugin Claude Code marketplace. Add it as a marketplace, then install the plugin:
 
 ```bash
-/plugin install lucasacoutinho/dds
+/plugin marketplace add lucasacoutinho/dds
+/plugin install dds@lucasacoutinho/dds
 ```
 
-Or, if you maintain your own marketplace file, add this repo as a source. Once enabled, run in order:
+Once enabled, run in order:
 
 ```bash
 # Phase 1: Fast reconnaissance — detect stack, modules, entry points
