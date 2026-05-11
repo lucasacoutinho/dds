@@ -16,7 +16,7 @@
         "name": "Lucas Coutinho",
         "email": "mail@lucasacoutinho.com"
       },
-      "source": ".",
+      "source": "./",
       "category": "development"
     }
   ]
