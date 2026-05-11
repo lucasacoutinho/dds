@@ -1,0 +1,9 @@
+{
+  "name": "dds",
+  "version": "1.0.0",
+  "description": "Development Driven Spec - reverse-engineer an Arc42-informed specification from legacy code through bottom-up excavation with LLM-as-Judge fidelity verification. Inverts the spec-driven-development direction: code -> spec.",
+  "author": {
+    "name": "Lucas Coutinho",
+    "email": "mail@lucasacoutinho.com"
+  }
+}

@@ -1,0 +1,17 @@
+# DDS workflow state — agent scratchpads should never be committed.
+.specs/scratchpad/
+
+# DDS test artefacts in the repo itself
+spec/.dds-state.json
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Python cruft (in case anyone adds tooling)
+__pycache__/
+*.pyc
+.venv/
